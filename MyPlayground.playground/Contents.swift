@@ -23,7 +23,13 @@ type eraser
 //NonValueSemanticsTypesIssueAndResolve.main()
 //HeartOfSwiftisValueType.main()
 //WhatisProtocolOrientedProgramming.main()
-//ProtocolAsaConstraintOrType.main()
-ProtocolAsaConstraintOrType.main()
 
+// Self-requirement を持つプロトコルは、次のように、制約として使うことだけが想定されてる。
+//ProtocolAsaConstraintOrType.main()
+
+
+// Opaque Result Type は リバースジェネリクス を簡潔に書くためのシンタックスシュガーだと考えることができます。
+
+
+// ----------------------------------
 GenericsPlayground.main()
