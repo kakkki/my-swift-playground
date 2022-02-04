@@ -25,3 +25,5 @@ type eraser
 //WhatisProtocolOrientedProgramming.main()
 //ProtocolAsaConstraintOrType.main()
 ProtocolAsaConstraintOrType.main()
+
+GenericsPlayground.main()
