@@ -112,5 +112,13 @@ struct HeterogeneousCollectionExample {
 struct ProtocolAsaConstraintOnlyCanDo {
     static func main() {
         print("制約としてのプロトコルでしかできないこと")
+        // Self-requirement を持つプロトコルは型としては使用せず、制約として使うことだけが想定されている
+        // Protocol 'Equatable' can only be used as a generic constraint because it has Self or associated type requirements
+        // 型としてProtocolを利用することはできない
+        // 型として利用できるようにしてしまうと、例えば以下のようなIntとStringを比較する==が必要になる
+        // コンパイルエラーで弾くために、型として利用できることをSwfitは認めてない
+//        let a: Equatable = 42
+//        let b: Equatable = "42"
+//        a == b
     }
 }
