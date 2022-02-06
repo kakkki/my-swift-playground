@@ -19,10 +19,6 @@ protocol AnimalP {
     func makeFriend(friend: Self)
 }
 
-extension AnimalP {
-    typealias FoodType = Mouse
-}
-
 struct Mouse {
     
 }
