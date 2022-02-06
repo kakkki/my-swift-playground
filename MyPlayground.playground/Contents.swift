@@ -32,4 +32,7 @@ type eraser
 
 
 // ----------------------------------
-GenericsPlayground.main()
+//GenericsPlayground.main()
+
+// ----------------------------------
+GenericProtocolSample.main()

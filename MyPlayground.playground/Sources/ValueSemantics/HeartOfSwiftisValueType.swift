@@ -197,7 +197,16 @@ struct HigherOrderFunctionAndInoutArgument {
         // modifyEachの話
         // reduceの話
         
-        print("todo ここから")
+        
+        var numbers = [2, 3, 4, 6, 9]
+        let theNumber = 4
+        
+        print("Numbers old: \(numbers)")
+        let newNumbers = numbers.map { n in
+            n + theNumber
+        }
+        print("Numbers new: \(newNumbers)")
+        
 
     }
 }
